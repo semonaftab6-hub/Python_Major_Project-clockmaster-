@@ -1,0 +1,40 @@
+Clock Master ⏰
+A Python-based, console-driven time management system built inside a Jupyter Notebook (Clock_Master_Project.ipynb). This project provides essential time-tracking utilities with clean terminal interfaces and interactive keyboard controls.
+
+🚀 Features
+Digital Clock
+
+Displays a live, real-time digital clock showing the current date and time (DD-MM-YYYY HH:MM:SS).
+
+Updates every second.
+
+Alarm Clock
+
+Allows users to set a custom alarm in HH:MM:SS format with input validation.
+
+Continuously monitors the current time and triggers an audio alert (\a) along with a notification message when the alarm time is reached.
+
+Stopwatch
+
+Accurately tracks elapsed time in HH:MM:SS format.
+
+Smoothly updates on the console using dynamic carriage returns (\r).
+
+Countdown Timer
+
+Accepts custom countdown durations (HH:MM:SS).
+
+Counts down second-by-second with a visual timer display and alerts when time runs out.
+
+Interactive Main Menu
+
+An easy-to-navigate command-line interface that allows users to switch between tools or exit gracefully.
+
+Includes robust exception handling (KeyboardInterrupt support via Ctrl+C and invalid input handling).
+
+🛠️ Built With
+Python (Core Logic)
+
+datetime module (For real-time tracking and formatting)
+
+time module (For delays and loops)
